@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@charset "utf-8";
+
+@media screen and (max-width:480px)
+{
+	.project
+	{
+	  padding-top: 18%;
+	 }
+
+	.project h1
+	{
+	   font-family: 'Chonburi', serif;
+	   color: #194B66;
+	   padding-left: 25%;
+	}
+
+	.project p
+	{
+	  font-family: 'Lato', sans-serif;
+	  color: #232323;
+	  font-size: 1rem;
+	  padding-left: 17%;
+	}
+	
+	.txtrs
+	{ 
+		font-size:35px; 
+		margin-top:150px;
+	} 
+
+	.button
+	{
+		background:#fff;
+		color:#009;
+		text-align:center; 
+		text-decoration:none;
+		border:2px solid #009; 
+		border-radius:1px;
+		color:#8CC63F;
+		text-align:center;
+		border:2px solid #8CC63F;
+		background:#FFF; 
+		background:rgba(255,255,255,0.1); 
+		padding-top:8px; 
+		margin-left:50px;
+	}
+
+	.txt
+	{
+		font-family: 'Lato', sans-serif; 
+		text-decoration:none;
+	}
+
+	.boxing
+	{
+		width:50% ;
+		height:50px; 
+		background:; 
+		margin:5% auto; 
+		border:3px solid #8CC63F;
+		padding-top:10px; 
+		padding-left:5px;
+		color:#8CC63F;
+		font-family: 'Lato', sans-serif; 
+		display:block
+	}
+
+	.boxing:hover
+	{ 
+		background:#8CC63F; 
+		color:#fff; 
+	}
+
+	.text
+	{ 
+		color:#8CC63F; 
+		display:block
+	}
+
+	.text:hover
+	{ 
+		color:#fff
+	}
+
+}
+	
+	
+@media screen and (max-width:1600px)
+{
+	.button
+	{ 
+		background:#fff;
+		color:#009; 
+		padding:5px 30px; 
+		text-align:center; 
+		text-decoration:none; 
+		display:inline-block; 
+		margin:4px 2px;  
+		border:2px solid #009; 
+		border-radius:1px;
+		color:#5BA7D5;
+		text-align:center;
+		border:2px solid #5BA7D5;
+		background:#FFF; 
+		background:rgba(255,255,255,0.1); 
+		padding-top:8px; 
+	}
+
+	.buttonn
+	{ 
+		width:20%; 
+		height:60px; 
+		margin:1% auto; 
+		border:3px solid #5DA8D5; 
+		padding-top:12px; 
+		padding-left:50px; 
+		color:#5DA8D5;font-family: 'Lato', sans-serif; 
+	}
+	
+}	
+	
+	

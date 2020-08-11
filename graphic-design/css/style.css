@@ -1,1 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@charset "utf-8";
+
+*
+{
+  margin:0px;
+  padding:0px;
+}
+
+html 
+{
+  scroll-behavior: smooth;
+}
+
+.navbox
+{
+  width:100%;
+  background:#fff;
+  position:fixed;
+  z-index:1000; 
+  box-shadow:1px 1px 1px #ccc; 
+  display:block;
+  } 
+
+.mob
+{
+  margin-top:3%;
+  width: 50px;
+  height: 50px;
+} 
+
+#navbarNav ul li a
+{
+  color: #1B4B66;
+  font-size: 1.3rem;
+  font-family: 'Lato', sans-serif;
+} 
+
+#navbarNav ul li a:hover
+{
+  color: #5DA8D5;
+}  
+
+.txt
+{
+  font-family: 'Lato', sans-serif;
+  text-decoration:none;
+} 
+
+.top1 
+{
+  margin-top:5%;
+  margin-bottom:5%;
+} 
+
+
+.txthead
+{
+  font-family: 'Chonburi', serif;
+  color: #232323;
+} 
+
+#line
+{ 
+  background:#5DA8D5;
+  border-bottom:2px solid #5DA8D5; 
+  width:225px; 
+  margin:0px auto;
+} 
+
+.txt2
+{
+  font-family: 'Lato', sans-serif;
+  text-decoration:none;
+  text-align:start;
+  font-size: 20px;
+  color: #3F3F3F;
+} 
+
+.top2
+{
+  margin-top:50px;
+} 
+
+.top
+{
+  margin-top:17px;
+} 
+
+.button
+{
+  color:#5BA7D5;
+  text-align:center;
+  border:2px solid #5BA7D5;
+  background:#FFF; 
+  background:rgba(255,255,255,0.1); 
+  padding-top:8px;
+}
+
+.button:hover
+{ 
+  background:#5BA7D5; 
+  color:#FFF;
+} 
+
+.text
+{
+  color:#5DA8D5;
+}
+
+.project
+{
+  padding-top: 8%;
+ }
+
+.project h1
+{
+   font-family: 'Chonburi', serif;
+   color: #194B66;
+   padding-left: 35%;
+}
+
+.project p
+{
+  font-family: 'Lato', sans-serif;
+  color: #232323;
+  font-size: 1.2rem;
+  padding-left: 32%;
+}
+
+.project img
+{
+  border: 3px solid #5BA7D5;
+}
+
+.project .img
+{
+  padding-bottom: 3%;
+}
+
+.project .upcoming
+{
+  padding-top: 7%;
+}
+
+.project .following
+{
+  padding-top: 7%;
+}
+
+.project h4
+{
+  font-family: 'Lato', sans-serif;
+  color: #232323;
+}
+
+
 
