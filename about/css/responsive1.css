@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@charset "utf-8";
+
+@media screen and (max-width:480px)
+{
+
+	#about
+	{ 
+		display:none;
+	}
+	
+	#about1
+	{ 
+		display: block;
+		padding-top: 20%;
+	}
+
+	#about1 h3
+	{
+		font-family: 'Chonburi' , serif;
+  		color: #1A4C66;
+  		font-size: 2rem;
+	}
+
+	#about1 p
+	{
+		font-family: 'Lato' , sans-serif;
+  		color: #232323;
+  		font-size: 1.1rem;
+	}
+
+
+}
+	
+	
+
+	
+	

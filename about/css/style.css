@@ -1,1 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+@charset "utf-8";
+
+*
+{
+  margin:0px;
+  padding:0px;
+}
+
+html 
+{
+  scroll-behavior: smooth;
+}
+
+.navbox
+{
+  width:100%;
+  background:#fff;
+  position:fixed;
+  z-index:1000; 
+  box-shadow:1px 1px 1px #ccc; 
+  display:block;
+  } 
+
+.mob
+{
+  margin-top:3%;
+  width: 50px;
+  height: 50px;
+} 
+
+#navbarNav ul li a
+{
+  color: #1B4B66;
+  font-size: 1.3rem;
+  font-family: 'Lato', sans-serif;
+} 
+
+#navbarNav ul li a:hover
+{
+  color: #5DA8D5;
+}
+
+#about
+{
+  padding-top: 8%;
+}
+
+#about .top3 h3
+{
+  font-family: 'Chonburi' , serif;
+  color: #1A4C66;
+  font-size: 2.5rem;
+}
+
+#about .top p
+{
+  font-family: 'Lato' , sans-serif;
+  color: #232323;
+  font-size: 1.3rem;
+}
+
+
+.top
+{
+  margin-top:17px;
+} 
+
+.top2
+{
+  margin-top:50px;
+}
+
+.txthead
+{
+  font-family: 'Chonburi', serif;
+  color: #232323;
+} 
+
+#line
+{ 
+  background:#5DA8D5;
+  border-bottom:2px solid #5DA8D5; 
+  width:225px; 
+  margin:0px auto;
+} 
+
+.top1 
+{
+  margin-top:5%;
+  margin-bottom:5%;
+} 
+
+.txt
+{
+  font-family: 'Lato', sans-serif;
+  text-decoration:none;
+} 
+
+#about
+{ 
+  display:block;
+}
+
+#about1
+{ 
+  padding-top: 30%;
+  display:none;
+}
