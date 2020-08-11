@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@charset "utf-8";
+
+@media screen and (max-width:480px)
+{
+	.head
+	{
+		padding-top: 20%;
+	}
+	form 
+	{
+		padding-top: 5%;
+	}
+	.col-25, .col-75, input[type=submit]
+	{
+    width: 100%;
+    margin-top: 5%;
+  }
+
+    s.top
+	{
+	  padding-top: 30%;
+	}
+	.top i
+	{
+	  padding-top: 20%;
+	  padding-bottom: 1%;
+	}
+
+	.top h5
+	{
+		padding-top: 2%;
+	}
+}
+	
+	
+
+	
+	
